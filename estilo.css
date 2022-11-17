@@ -1,0 +1,36 @@
+
+
+.linha{
+    color: rgb(255, 255, 255);
+    height:200px;
+    border-bottom:solid 5px;
+    border-top:solid 5px;
+}
+ 
+.casa{
+    width:200px;
+    height: 100%;;
+    border-right:solid 5px;
+    border-left:solid 5px;
+    float:right;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(38, 0, 255), rgb(119, 0, 255));
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}    
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+button {
+    justify-content: left;
+    align-items: center;
+    background-color: blueviolet;
+    
+}
